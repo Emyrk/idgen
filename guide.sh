@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env ash
 
 # Script to print out the information needed to use the container on boot
 nohup factom-walletd -s=$FACTOMDHOST &
