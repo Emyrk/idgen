@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Script to print out the information needed to use the container on boot
+nohup factom-walletd -s=$FACTOMDHOST &
 
 echo ""
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"

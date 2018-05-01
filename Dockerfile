@@ -73,5 +73,7 @@ ADD guide.sh $GOPATH/src/github.com/FactomProject/
 
 ARG FACTOMDHOST
 
+
+ENTRYPOINT ["sh"]
 #ENTRYPOINT ["factom-walletd", "-s=courtest.factom.com"]
-ENTRYPOINT ["factom-walletd", "24.120.19.152:8088"]
+#ENTRYPOINT ["factom-walletd", "-s=136.243.66.19:8088"]
